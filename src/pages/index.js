@@ -10,7 +10,7 @@ const IndexPage = () => (
         borderRadius: 20,
         margin: "auto",
         width: 350,
-        padding: 30,
+        padding: 15,
         textAlign: "center"
       }}
     >

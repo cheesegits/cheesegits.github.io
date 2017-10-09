@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
+import Navigation from "../components/navigation";
 import "./index.css";
 
 const Header = () => (
@@ -15,7 +16,7 @@ const Header = () => (
     <div
       style={{
         margin: "0 auto",
-        maxWidth: 960,
+        display: "inline-block",
         padding: "1.45rem 1.0875rem"
       }}
     >
@@ -32,6 +33,7 @@ const Header = () => (
       </h1>
       <h2 style={{ marginBottom: 0, color: "#A6BDD4" }}> Web Developer</h2>
     </div>
+    <Navigation />
   </div>
 );
 
