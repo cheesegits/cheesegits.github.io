@@ -2,13 +2,6 @@ import React, { Component } from "react";
 import Link from "gatsby-link";
 import styles from "./navigation.module.css";
 
-const menuStyle = {
-  width: 50,
-  height: 10,
-  margin: 10,
-  backgroundColor: "white"
-};
-
 class NavigationMenu extends Component {
   render() {
     return (
@@ -60,9 +53,9 @@ class NavigationButton extends Component {
         onClick={() => this.onClick()}
       >
         <button style={{ backgroundColor: "#292E31" }}>
-          <div style={menuStyle} />
-          <div style={menuStyle} />
-          <div style={menuStyle} />
+          <div className={styles.navBar1} />
+          <div className={styles.navBar2} />
+          <div className={styles.navBar3} />
         </button>
         {this.state.showMenu ? <NavigationMenu /> : null}
       </div>

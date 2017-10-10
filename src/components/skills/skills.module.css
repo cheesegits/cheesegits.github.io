@@ -1,0 +1,56 @@
+.skillsContainer {
+  background-color: #292e31;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin: auto;
+  width: 600px;
+  padding: 50px;
+  text-align: "center";
+  color: #a6bdd4;
+}
+
+.skillContainer {
+  height: 35px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: #a6bdd4;
+}
+
+.javascriptTitle,
+.htmlTitle {
+  float: left;
+  height: 35px;
+  width: 80%;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  background-color: #474644;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.reactTitle,
+.cssTitle {
+  float: left;
+  height: 35px;
+  width: 75%;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  background-color: #74757d;
+  color: white;
+}
+
+.javascriptPercent,
+.reactPercent,
+.htmlPercent,
+.cssPercent {
+  float: right;
+  height: 35px;
+  width: 50px;
+  padding-top: 5px;
+  color: #292e31;
+}

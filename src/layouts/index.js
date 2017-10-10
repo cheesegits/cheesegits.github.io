@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
-import Navigation from "../components/navigation";
+import Navigation from "../components/navigation/navigation";
 import "./index.css";
 
 const Header = () => (
@@ -56,6 +56,10 @@ const TemplateWrapper = ({ children }) => (
       }}
     >
       {children()}
+    </div>
+    <div style={{ position: "fixed", bottom: 0, right: 30 }}>
+      <h3 style={{ color: "white", marginBottom: 5 }}>Together</h3>
+      <h3 style={{ color: "#A6BDD4" }}>We Build</h3>
     </div>
   </div>
 );

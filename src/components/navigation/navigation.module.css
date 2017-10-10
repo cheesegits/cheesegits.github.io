@@ -1,3 +1,22 @@
+.navBar1 {
+  width: 26px;
+  height: 9px;
+  margin: 9px auto;
+  background-color: #a6bdd4;
+}
+.navBar2 {
+  width: 33px;
+  height: 9px;
+  margin: 9px auto;
+  background-color: white;
+}
+.navBar3 {
+  width: 40px;
+  height: 9px;
+  margin: 7px;
+  background-color: #77864f;
+}
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -23,7 +42,7 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #a6bdd4;
   display: block;
   transition: 0.3s;
 }
