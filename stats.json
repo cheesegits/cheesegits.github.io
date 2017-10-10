@@ -17,8 +17,8 @@
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b5185b29b9a382cb6975.js",
-      "component---src-layouts-index-js-b5185b29b9a382cb6975.js.map"
+      "component---src-layouts-index-js-3a82655b2e3ffcf53f69.js",
+      "component---src-layouts-index-js-3a82655b2e3ffcf53f69.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -30,7 +30,9 @@
     ],
     "commons": [
       "commons-7c5800366385f114fcca.js",
-      "commons-7c5800366385f114fcca.js.map"
+      "build-js-styles.css",
+      "commons-7c5800366385f114fcca.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -45,9 +47,9 @@
       "component---src-pages-projects-js-aa84b7ff10575ab5adf9.js.map"
     ],
     "app": [
-      "app-4ede70c33e4f04f7d8be.js",
+      "app-60aa4ace84882db2b304.js",
       "build-js-styles.css",
-      "app-4ede70c33e4f04f7d8be.js.map",
+      "app-60aa4ace84882db2b304.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -55,8 +57,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-986135f7671de420fb99.js",
-      "component---src-pages-about-js-986135f7671de420fb99.js.map"
+      "component---src-pages-about-js-90e8f7541e499c35e3b6.js",
+      "component---src-pages-about-js-90e8f7541e499c35e3b6.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
