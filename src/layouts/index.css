@@ -8,6 +8,7 @@ body {
   height: 100%;
   margin: 0;
   background-image: url("../images/scotland-castle.jpg");
+  background-attachment: fixed;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

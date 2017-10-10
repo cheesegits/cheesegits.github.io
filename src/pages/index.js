@@ -21,12 +21,8 @@ const IndexPage = () => (
         Possible through community
       </h4>
       <h4 style={{ color: "#A6BDD4", marginBottom: 5 }}>
-        A permanence greather than self
+        A permanence greater than self
       </h4>
-    </div>
-    <div style={{ position: "fixed", bottom: 0, right: 30 }}>
-      <h3 style={{ color: "white", marginBottom: 5 }}>Together</h3>
-      <h3 style={{ color: "#A6BDD4" }}>We Build</h3>
     </div>
   </div>
 );
