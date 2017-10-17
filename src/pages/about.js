@@ -7,8 +7,10 @@ import Teamwork from "../components/aboutMe/teamwork";
 
 const About = () => (
   <div>
-    <div style={{ width: 200, margin: "auto" }}>
-      <h1>About Me</h1>
+    <div>
+      <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
+        About Me
+      </h1>
     </div>
     <Skills />
     <br />

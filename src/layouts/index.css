@@ -9,8 +9,7 @@ body {
   margin: 0;
   background-image: url("../images/scotland-castle.jpg");
   background-attachment: fixed;
-  height: 100%;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -65,10 +64,6 @@ strong {
 }
 dfn {
   font-style: italic;
-}
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
 }
 mark {
   background-color: #ff0;
@@ -191,7 +186,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 100%/1em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -240,7 +235,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   line-height: 1.1;
 }
 h2 {
@@ -257,7 +252,7 @@ h2 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 1.5rem;
   line-height: 1.1;
 }
 h3 {
@@ -274,7 +269,7 @@ h3 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 1.2rem;
   line-height: 1.1;
 }
 h4 {
@@ -291,7 +286,7 @@ h4 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.1;
 }
 h5 {
@@ -308,7 +303,7 @@ h5 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
+  font-size: 0.6rem;
   line-height: 1.1;
 }
 h6 {
@@ -325,7 +320,7 @@ h6 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
+  font-size: 0.3rem;
   line-height: 1.1;
 }
 hgroup {
@@ -625,8 +620,53 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 100px) {
   html {
-    font-size: 100%;
+    font-size: 16px;
+  }
+  .website {
+    max-width: 95%;
+    position: relative;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 12.5%;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 18px;
+  }
+  .website {
+    max-width: 54%;
+    position: relative;
+    margin-left: 2.5%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 22px;
+  }
+  .website {
+    position: relative;
+    margin-top: 130px;
+    max-width: 800px;
+    margin-left: 50px;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 28px;
+  }
+  .website {
+    margin-top: 175px;
+    max-width: 1200px;
   }
 }

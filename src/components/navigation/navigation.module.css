@@ -1,19 +1,19 @@
 .navBar1 {
-  width: 26px;
-  height: 9px;
-  margin: 9px auto;
+  width: 25px;
+  height: 8px;
+  margin: 8px auto;
   background-color: #a6bdd4;
 }
 .navBar2 {
-  width: 33px;
-  height: 9px;
-  margin: 9px auto;
+  width: 30px;
+  height: 8px;
+  margin: 8px auto;
   background-color: white;
 }
 .navBar3 {
-  width: 40px;
-  height: 9px;
-  margin: 7px;
+  width: 35px;
+  height: 8px;
+  margin: 8px;
   background-color: #77864f;
 }
 
@@ -21,11 +21,11 @@
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 3;
+  z-index: 2;
   left: 0;
   top: 0;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.85);
   overflow-x: hidden;
   transition: 0.5s;
 }

@@ -1,11 +1,10 @@
 .skillsContainer {
   background-color: #292e31;
-  opacity: 0.9;
+  opacity: 0.85;
   border-radius: 20px;
   margin: auto;
-  width: 600px;
-  padding: 50px;
-  text-align: "center";
+  width: 100%;
+  padding: 10px;
   color: #a6bdd4;
 }
 

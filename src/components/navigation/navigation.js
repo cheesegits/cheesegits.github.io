@@ -48,7 +48,7 @@ class NavigationButton extends Component {
         style={{
           display: "inline-block",
           float: "right",
-          padding: "1.45rem 1.0875rem"
+          padding: ".9rem"
         }}
         onClick={() => this.onClick()}
       >

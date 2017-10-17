@@ -4,50 +4,50 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
 import Navigation from "../components/navigation/navigation";
-import "./index.css";
+import styles from "./index.css";
 
 const Header = () => (
   <div
     style={{
       background: "#474644",
-      marginBottom: "1.45rem",
       position: "fixed",
+      top: 0,
+      left: 0,
       width: "100%",
-      zIndex: 2
+      zIndex: 3
     }}
   >
     <div
       style={{
         margin: "0 auto",
         display: "inline-block",
-        padding: "1.45rem 1.0875rem"
+        padding: "1rem"
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <h1
           style={{
             color: "white",
-            textDecoration: "none",
             borderTop: "3px solid red",
             borderLeft: "3px solid red",
-            paddingLeft: "10px"
+            paddingLeft: "10px",
+            marginBottom: "0px"
           }}
         >
           Matt Mulit
-        </Link>
-      </h1>
-      <h2
-        style={{
-          marginBottom: 0,
-          color: "#A6BDD4",
-          paddingLeft: "10px",
-          borderLeft: "3px solid red"
-        }}
-      >
-        {" "}
-        Web Developer
-      </h2>
+        </h1>
+        <h2
+          style={{
+            marginBottom: 0,
+            color: "#A6BDD4",
+            paddingLeft: "10px",
+            borderLeft: "3px solid red"
+          }}
+        >
+          {" "}
+          Web Developer
+        </h2>
+      </Link>
     </div>
     <Navigation />
   </div>
@@ -63,43 +63,44 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
+    <div style={{}}>
+      <div className="website">{children()}</div>
+    </div>
     <div
       style={{
-        position: "absolute",
-        marginLeft: "auto",
-        marginRight: "auto",
-        left: 0,
-        right: 0,
-        marginTop: 150,
-        maxWidth: 960,
-        padding: "0px 1.0875rem 1.45rem",
-        zIndex: 1
+        display: "block",
+        position: "fixed",
+        bottom: 0,
+        paddingTop: "5px",
+        width: "100%",
+        background: "#474644",
+        zIndex: 3
       }}
     >
-      {children()}
-    </div>
-    <div style={{ position: "fixed", bottom: 0, right: 30 }}>
-      <h3
+      <div
         style={{
+          float: "right",
           color: "white",
-          marginBottom: 0,
-          borderRight: "3px solid red",
-          paddingRight: "10px"
+          marginRight: 10,
+          marginBottom: 7,
+          borderRight: "1.5px solid red",
+          paddingRight: "5px",
+          borderBottom: "1.5px solid red",
+          paddingBottom: "0px"
         }}
       >
-        Together
-      </h3>
-      <h3
-        style={{
-          color: "#A6BDD4",
-          borderBottom: "3px solid red",
-          paddingBottom: "10px",
-          borderRight: "3px solid red",
-          paddingBottom: "10px"
-        }}
-      >
-        We Build
-      </h3>
+        <h3 style={{ marginBottom: 5 }}>
+          Together
+          <span
+            style={{
+              color: "#A6BDD4"
+            }}
+          >
+            {" "}
+            We Build
+          </span>
+        </h3>
+      </div>
     </div>
   </div>
 );

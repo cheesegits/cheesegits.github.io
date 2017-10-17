@@ -3,7 +3,9 @@ import Link from "gatsby-link";
 
 const Projects = () => (
   <div>
-    <h1>Projects</h1>
+    <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
+      Projects
+    </h1>
   </div>
 );
 
