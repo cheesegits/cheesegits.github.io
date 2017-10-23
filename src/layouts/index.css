@@ -641,10 +641,10 @@ pre tt:after {
 }
 
 @media screen and (min-width: 550px) and (orientation: landscape) {
-  .devHeader h1 {
+  .siteHeader h1 {
     display: inline-block;
   }
-  .devHeader h2 {
+  .siteHeader h2 {
     display: inline-block;
     border-top: 3px solid red;
     padding-top: 5px;
@@ -657,10 +657,10 @@ pre tt:after {
     font-size: 18px;
   }
 
-  .devHeader h1 {
+  .siteHeader h1 {
     display: block;
   }
-  .devHeader h2 {
+  .siteHeader h2 {
     display: block;
     border-top: none;
     border-left: 3px solid red;

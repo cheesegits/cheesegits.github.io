@@ -9,6 +9,7 @@ import styles from "./index.css";
 const Header = () => (
   <div>
     <div
+      className="siteHeader"
       style={{
         background: "#474644",
         position: "fixed",
