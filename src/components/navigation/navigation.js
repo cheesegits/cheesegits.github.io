@@ -46,9 +46,13 @@ class NavigationButton extends Component {
     return (
       <div
         style={{
+          position: "fixed",
           display: "inline-block",
           float: "right",
-          padding: ".9rem"
+          padding: ".9rem",
+          top: 0,
+          right: 0,
+          zIndex: 3
         }}
         onClick={() => this.onClick()}
       >
