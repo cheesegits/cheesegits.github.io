@@ -635,7 +635,7 @@ pre tt:after {
     right: 0;
     z-index: 1;
   }
-  .devHeader h2 {
+  .siteHeader h2 {
     border-left: 3px solid red;
   }
 }
