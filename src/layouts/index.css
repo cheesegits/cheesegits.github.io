@@ -647,7 +647,7 @@ pre tt:after {
   .siteHeader h2 {
     display: inline-block;
     border-top: 3px solid red;
-    padding-top: 5px;
+    padding-top: 4.5px;
     border-left: none;
   }
 }
