@@ -1,11 +1,11 @@
 import React from "react";
 
-import styles from "./skills.module.css";
+import styles from "./aboutMe.module.css";
 
 const Skills = () => (
   <div>
-    <div className={styles.skillsContainer}>
-      <h3>Programming Skills:</h3>
+    <div className={styles.aboutMeContainer}>
+      <h3>Programming Skills</h3>
       <div className={styles.skillContainer}>
         <div className={styles.javascriptTitle}>Javascript</div>
         <div className={styles.javascriptPercent}>80%</div>
@@ -23,14 +23,28 @@ const Skills = () => (
         <div className={styles.cssPercent}>75%</div>
       </div>
       <br />
-      <h3>Experience with:</h3>
+      <h3
+        style={{
+          borderLeft: "none",
+          borderTop: "none",
+          marginTop: "5px",
+          marginBottom: "10px",
+          fontStyle: "italic"
+        }}
+      >
+        Experience with:
+      </h3>
       <div>
-        <p>
-          <i>
-            Bootstrap, command line Git, Express, Jquery, Mocha/Chai, MongoDB,
-            Mongoose, SocketIO, Webpack
-          </i>
-        </p>
+        <h4 style={{ color: "white" }}>
+          Bootstrap <span style={{ color: "red" }}>|</span> command line Git{" "}
+          <span style={{ color: "red" }}>|</span>
+          Express <span style={{ color: "red" }}>|</span> Jquery{" "}
+          <span style={{ color: "red" }}>|</span> Mocha/Chai{" "}
+          <span style={{ color: "red" }}>|</span> MongoDB{" "}
+          <span style={{ color: "red" }}>|</span> Mongoose{" "}
+          <span style={{ color: "red" }}>|</span> SocketIO{" "}
+          <span style={{ color: "red" }}>|</span> Webpack
+        </h4>
       </div>
     </div>
   </div>
