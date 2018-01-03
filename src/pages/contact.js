@@ -22,7 +22,10 @@ const Contact = () => (
       }}
     >
       <div>
-        <img src={EmailIcon} style={{ width: "48px", float: "left" }} />
+        <img
+          src={EmailIcon}
+          style={{ width: "48px", float: "left", marginBottom: "0px" }}
+        />
         <h3
           style={{
             display: "inline-block",
@@ -35,7 +38,10 @@ const Contact = () => (
         </h3>
       </div>
       <div style={{ clear: "left" }}>
-        <img src={GithubIcon} style={{ width: "48px", float: "left" }} />
+        <img
+          src={GithubIcon}
+          style={{ width: "48px", float: "left", marginBottom: "0px" }}
+        />
         <h3 style={{ display: "inline-block", marginTop: "10px" }}>
           <a href="https://github.com/cheesegits" style={{ color: "white" }}>
             GitHub: cheesegits
@@ -43,7 +49,10 @@ const Contact = () => (
         </h3>
       </div>
       <div style={{ clear: "left" }}>
-        <img src={LinkedinIcon} style={{ width: "48px", float: "left" }} />
+        <img
+          src={LinkedinIcon}
+          style={{ width: "48px", float: "left", marginBottom: "0px" }}
+        />
         <h3 style={{ display: "inline-block", marginTop: "10px" }}>
           <a
             href="https://www.linkedin.com/in/matthew-mulit-902981125/"
