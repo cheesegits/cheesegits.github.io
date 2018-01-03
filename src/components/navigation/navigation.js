@@ -6,13 +6,6 @@ class NavigationMenu extends Component {
   render() {
     return (
       <div className={styles.overlay}>
-        <a
-          href="javascript:void(0)"
-          className={styles.closeBtn}
-          onClick={this.onClick}
-        >
-          &times;
-        </a>
         <div className={styles.pageLinks}>
           <Link to="/" className={styles.link}>
             Home
