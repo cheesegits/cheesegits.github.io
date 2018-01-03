@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import OptimalWork from "../components/aboutMe/optimalWork";
 import Skills from "../components/aboutMe/skills";
 import Teamwork from "../components/aboutMe/teamwork";
-
+import Lifestyle from "../components/aboutMe/lifestyle";
 const About = () => (
   <div>
     <div>
@@ -12,6 +12,8 @@ const About = () => (
         About Me
       </h1>
     </div>
+    <Lifestyle />
+    <br />
     <Skills />
     <br />
     <Teamwork />
