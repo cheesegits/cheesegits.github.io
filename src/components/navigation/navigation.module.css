@@ -1,3 +1,12 @@
+.menu {
+  position: fixed;
+  float: right;
+  display: inline-block;
+  padding: 0.5rem;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
 .navBar1 {
   width: 25px;
   height: 8px;
@@ -54,7 +63,10 @@
   font-size: 60px;
   color: #818181;
 }
-@media screen and (min-width: 550px) and (orientation: landscape) {
+@media screen and (min-width: 0px) and (orientation: landscape) {
+  .menu {
+    padding: 0.4rem;
+  }
   .navBar1 {
     width: 15px;
     height: 4px;
@@ -71,7 +83,10 @@
     margin: 5px auto;
   }
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
+  .menu {
+    padding: 0.75rem;
+  }
   .navBar1 {
     width: 25px;
     height: 8px;
@@ -86,5 +101,26 @@
     width: 35px;
     height: 8px;
     margin: 8px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .menu {
+    padding: 0.75rem;
+  }
+  .navBar1 {
+    width: 40px;
+    height: 12px;
+    margin: 12px auto;
+  }
+  .navBar2 {
+    width: 50px;
+    height: 12px;
+    margin: 12px auto;
+  }
+  .navBar3 {
+    width: 60px;
+    height: 12px;
+    margin: 12px;
   }
 }

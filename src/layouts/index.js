@@ -21,18 +21,19 @@ const Header = () => (
     >
       <div
         style={{
-          margin: "0 auto",
           display: "inline-block",
-          padding: "1rem"
+          marginTop: "6px",
+          marginLeft: "6px",
+          marginBottom: "10px",
+          borderLeft: "3px solid red",
+          borderTop: "3px solid red"
         }}
       >
         <Link to="/" style={{ textDecoration: "none" }}>
           <h1
             style={{
               color: "white",
-              borderTop: "3px solid red",
-              borderLeft: "3px solid red",
-              paddingLeft: "10px",
+              paddingLeft: "6px",
               marginBottom: "0px"
             }}
           >
@@ -42,7 +43,7 @@ const Header = () => (
             style={{
               marginBottom: 0,
               color: "#A6BDD4",
-              paddingLeft: "10px"
+              paddingLeft: "6px"
             }}
           >
             {" "}
@@ -83,8 +84,8 @@ const TemplateWrapper = ({ children }) => (
         style={{
           float: "right",
           color: "white",
-          marginRight: 10,
-          marginBottom: 7,
+          marginRight: 6,
+          marginBottom: 6,
           borderRight: "1.5px solid red",
           paddingRight: "5px",
           borderBottom: "1.5px solid red",

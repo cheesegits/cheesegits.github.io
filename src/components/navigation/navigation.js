@@ -37,18 +37,7 @@ class NavigationButton extends Component {
   }
   render() {
     return (
-      <div
-        style={{
-          position: "fixed",
-          display: "inline-block",
-          float: "right",
-          padding: ".9rem",
-          top: 0,
-          right: 0,
-          zIndex: 3
-        }}
-        onClick={() => this.onClick()}
-      >
+      <div className={styles.menu} onClick={() => this.onClick()}>
         <button style={{ backgroundColor: "#292E31" }}>
           <div className={styles.navBar1} />
           <div className={styles.navBar2} />
