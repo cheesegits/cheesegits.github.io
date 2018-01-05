@@ -7,11 +7,11 @@ import Teamwork from "../components/aboutMe/teamwork";
 import Lifestyle from "../components/aboutMe/lifestyle";
 const About = () => (
   <div>
-    <div>
+    {/* <div>
       <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
         About Me
       </h1>
-    </div>
+    </div> */}
     <Lifestyle />
     <br />
     <Skills />

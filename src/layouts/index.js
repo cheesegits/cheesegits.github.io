@@ -92,11 +92,12 @@ const TemplateWrapper = ({ children }) => (
           paddingBottom: "0px"
         }}
       >
-        <h3 style={{ marginBottom: 5 }}>
+        <h3 style={{ marginBottom: 5, fontFamily: "Rock Salt" }}>
           Together
           <span
             style={{
-              color: "#A6BDD4"
+              color: "#A6BDD4",
+              fontFamily: "Bungee Hairline"
             }}
           >
             {" "}

@@ -7,11 +7,11 @@ import MongoShopping from "../components/projects/mongoShopping";
 
 const Projects = () => (
   <div>
-    <div>
+    {/* <div>
       <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
         Projects
       </h1>
-    </div>
+    </div> */}
     <ReceiptTracker />
     <QAndAExtension />
     <MongoShopping />

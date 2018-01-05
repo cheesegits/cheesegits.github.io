@@ -6,9 +6,9 @@ import LinkedinIcon from "../images/Linkedin-icon.png";
 
 const Contact = () => (
   <div>
-    <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
+    {/* <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
       Contact Info
-    </h1>
+    </h1> */}
     <div
       style={{
         backgroundColor: "#292e31",
@@ -32,7 +32,10 @@ const Contact = () => (
             marginTop: "10px"
           }}
         >
-          <a href="cheesegits@gmail.com" style={{ color: "#77864f" }}>
+          <a
+            href="cheesegits@gmail.com"
+            style={{ color: "#77864f", fontFamily: "Zilla Slab Highlight" }}
+          >
             cheesegits@gmail.com
           </a>
         </h3>
@@ -43,7 +46,10 @@ const Contact = () => (
           style={{ width: "48px", float: "left", marginBottom: "0px" }}
         />
         <h3 style={{ display: "inline-block", marginTop: "10px" }}>
-          <a href="https://github.com/cheesegits" style={{ color: "white" }}>
+          <a
+            href="https://github.com/cheesegits"
+            style={{ color: "white", fontFamily: "Zilla Slab Highlight" }}
+          >
             GitHub: cheesegits
           </a>
         </h3>
@@ -56,7 +62,7 @@ const Contact = () => (
         <h3 style={{ display: "inline-block", marginTop: "10px" }}>
           <a
             href="https://www.linkedin.com/in/matthew-mulit-902981125/"
-            style={{ color: "#A6BDD4" }}
+            style={{ color: "#A6BDD4", fontFamily: "Zilla Slab Highlight" }}
           >
             Linked-In Profile
           </a>

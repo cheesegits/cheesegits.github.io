@@ -3,13 +3,13 @@ import Link from "gatsby-link";
 
 const IndexPage = () => (
   <div>
-    <div
+    {/* <div
       style={{
         backgroundColor: "#292E31",
         opacity: 0.85,
         borderRadius: 20,
         margin: "auto",
-        width: 350,
+        width: 300,
         padding: 15,
         textAlign: "center"
       }}
@@ -23,7 +23,7 @@ const IndexPage = () => (
       <h4 style={{ color: "#A6BDD4", marginBottom: 5 }}>
         A permanence greater than self
       </h4>
-    </div>
+    </div> */}
   </div>
 );
 
