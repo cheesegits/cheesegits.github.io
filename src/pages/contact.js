@@ -33,7 +33,7 @@ const Contact = () => (
           }}
         >
           <a
-            href="cheesegits@gmail.com"
+            href="mailto:cheesegits@gmail.com"
             style={{ color: "#77864f", fontFamily: "Zilla Slab Highlight" }}
           >
             cheesegits@gmail.com
