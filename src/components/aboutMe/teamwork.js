@@ -6,7 +6,7 @@ const Teamwork = () => (
   <div className={styles.aboutMeContainer}>
     <h3>Teamwork Crede</h3>
     <p>
-      Playing national and international soccer growing up reinforced how
+      While growing up, playing national and international soccer reinforced how
       rewarding teamwork can be. My{" "}
       <span style={{ color: "white", fontStyle: "italic" }}>
         career ambition

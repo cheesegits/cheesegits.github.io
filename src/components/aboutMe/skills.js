@@ -37,8 +37,8 @@ const Skills = () => (
       <div>
         <h4 style={{ color: "white" }}>
           Bootstrap <span style={{ color: "red" }}>|</span> command line Git{" "}
-          <span style={{ color: "red" }}>|</span>
-          Express <span style={{ color: "red" }}>|</span> Jquery{" "}
+          <span style={{ color: "red" }}>|</span> Express{" "}
+          <span style={{ color: "red" }}>|</span> Jquery{" "}
           <span style={{ color: "red" }}>|</span> Mocha/Chai{" "}
           <span style={{ color: "red" }}>|</span> MongoDB{" "}
           <span style={{ color: "red" }}>|</span> Mongoose{" "}
