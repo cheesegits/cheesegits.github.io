@@ -5,6 +5,8 @@ import OptimalWork from "../components/aboutMe/optimalWork";
 import Skills from "../components/aboutMe/skills";
 import Teamwork from "../components/aboutMe/teamwork";
 import Lifestyle from "../components/aboutMe/lifestyle";
+import MyMap from "../components/aboutMe/map";
+
 const About = () => (
   <div>
     {/* <div>
@@ -19,6 +21,8 @@ const About = () => (
     <Teamwork />
     <br />
     <OptimalWork />
+    <br />
+    <MyMap />
   </div>
 );
 
