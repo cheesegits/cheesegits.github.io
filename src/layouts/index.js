@@ -61,8 +61,15 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Matt Mulit (cheesegits)"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        {
+          name: "description",
+          content:
+            "The professional site of Matt Mulit - Web Developer.  Currently available for hire."
+        },
+        {
+          name: "keywords",
+          content: "Matt, Mulit, Web, App, Developer, JavaScript, React"
+        }
       ]}
     />
     <Header />
