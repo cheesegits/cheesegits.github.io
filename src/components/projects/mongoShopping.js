@@ -18,8 +18,7 @@ const Project5 = () => (
       The frontend for this shopping list was provided by the Thinkful
       programming bootcamp. Business logic was added to provide shopping list
       functionality. Continuous integration was added via Travis for additional
-      development in the future. This was my first time attempt at using Chai
-      for unit testing.
+      development in the future.
     </p>
     <h3 style={{ textAlign: "right" }}>
       <a href="https://mm-shopping-list.herokuapp.com/">Demo</a> |{" "}

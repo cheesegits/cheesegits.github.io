@@ -15,9 +15,8 @@ const Project1 = () => (
     <p>
       Living on a small family farm while attending an online programming
       bootcamp constantly begged the question of how to combine my passion for
-      programming and farm life. A receipt tracker for the certified organic
-      process became a development priority. Next on the list is a tool to add
-      recipes to a family recipes archive.
+      programming and farm life. A receipt tracker was developed to be used
+      towards the certified organic process.
     </p>
     <h3 style={{ marginBottom: "5px", textAlign: "right" }}>
       {" "}

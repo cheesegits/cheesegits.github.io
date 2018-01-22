@@ -6,7 +6,7 @@ const MyMap = () => (
   <div className={styles.aboutMeContainer}>
     <h3>Location</h3>
     <h4 style={{ color: "white", marginBottom: "5px", textAlign: "center" }}>
-      Local Employers:
+      Local Employers
     </h4>
     <p style={{ marginBottom: "5px", textAlign: "center" }}>
       21 miles to NYC (55 minute train)
@@ -21,7 +21,7 @@ const MyMap = () => (
       allowfullscreen
     />
     <h4 style={{ color: "white", marginBottom: "5px", textAlign: "center" }}>
-      Long-distance Employers:
+      Long-distance Employers
     </h4>
     <p style={{ marginBottom: "5px", textAlign: "center" }}>
       200 Mbps Fiber-to-the-Home
