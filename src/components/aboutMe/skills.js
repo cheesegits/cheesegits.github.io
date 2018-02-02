@@ -8,19 +8,15 @@ const Skills = () => (
       <h3>Programming Skills</h3>
       <div className={styles.skillContainer}>
         <div className={styles.javascriptTitle}>Javascript</div>
-        <div className={styles.javascriptPercent}>80%</div>
       </div>
       <div className={styles.skillContainer}>
         <p className={styles.reactTitle}>React + Redux</p>
-        <div className={styles.reactPercent}>75%</div>
       </div>
       <div className={styles.skillContainer}>
         <p className={styles.htmlTitle}>HTML5</p>
-        <div className={styles.htmlPercent}>80%</div>
       </div>
       <div className={styles.skillContainer}>
         <p className={styles.cssTitle}>CSS3</p>
-        <div className={styles.cssPercent}>75%</div>
       </div>
       <br />
       <h3
