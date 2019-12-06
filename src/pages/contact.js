@@ -1,14 +1,14 @@
 import React from "react";
-import Link from "gatsby-link";
+
 import EmailIcon from "../images/email-icon.png";
 import GithubIcon from "../images/Github-icon.png";
 import LinkedinIcon from "../images/Linkedin-icon.png";
 
 const Contact = () => (
   <div>
-    {/* <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
+    <h1 style={{ textAlign: "center", marginBottom: 10, paddingBottom: 10 }}>
       Contact Info
-    </h1> */}
+    </h1>
     <div
       style={{
         backgroundColor: "#292e31",
